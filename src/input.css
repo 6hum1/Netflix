@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide {
+    /* Hide scrollbar for WebKit browsers */
+    overflow: -moz-hidden-unscrollable; /* Firefox */
+ }
+ 
+ .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+ }
+ 
+ .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+ }
+ 
+ /* To hide scrollbar space in the parent container */
+ .relative {
+    position: relative;
+    overflow: hidden;
+ }
+ 
