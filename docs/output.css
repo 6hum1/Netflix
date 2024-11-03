@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .fixed {
   position: fixed;
 }
@@ -740,6 +736,10 @@ video {
   flex-direction: column;
 }
 
+.place-items-start {
+  place-items: start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -831,7 +831,7 @@ video {
 }
 
 .bg-hero-pattern {
-  background-image: url('/src/img/netflix-background.jpg');
+  background-image: url('/docs/img/netflix-background.jpg');
 }
 
 .from-blue-950 {

@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     faqs.forEach(faq => {
         const plus = faq.querySelector(".plus");
-        const para = faq.querySelector(".para");
+        const para = faq.nextElementSibling;
         const cross = faq.querySelector(".cross");
 
         plus.addEventListener("click", () => {
-            console.log("Plus clicked"); // Debugging log
+            console.log("Plus clicked"); 
             para.classList.remove("hidden");
             para.classList.add("block");
             cross.classList.remove("hidden");
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         cross.addEventListener("click", () => {
-            console.log("Cross clicked"); // Debugging log
+            console.log("Cross clicked"); 
             para.classList.add("hidden");
             para.classList.remove("block");
             cross.classList.add("hidden");
@@ -25,4 +25,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-    

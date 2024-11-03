@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./docs/**/*.{html,js}"],
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/src/img/netflix-background.jpg')",
+        'hero-pattern': "url('/docs/img/netflix-background.jpg')",
         
        }
     },
