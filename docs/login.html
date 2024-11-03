@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV shows</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="relative h-screen w-full text-white">
+        <div class=" absolute inset-0 bg-hero-pattern bg-cover bg-center"></div>
+        <div class=" absolute inset-0 bg-black bg-opacity-65"></div>
+        <div class="relative z-10  p-0 m-0">
+            <!-- navbar begins here -->
+             <div class="flex  w-full justify-between items-center px-4 md:px-32 h-32">
+                <div class="md:w-52 w-36 p-0 m-0">
+                    <img  src="./img/Netflix-Logo.wine.svg" alt="">
+                </div>
+                <div >
+                    <select name="lang" id="lang" class="px-4 py-1 rounded-md bg-transparent border-stone-500 border-2 active:border-white">
+                        <option value="en" class="text-black" >English</option>
+                        <option value="hn" class="text-black">Hindi</option>
+                    </select>
+                  
+                </div>
+             </div>
+
+             <div class="max-w-96 bg-black bg-opacity-50 m-auto p-12 text-white h-auto rounded-md flex flex-col">
+                   <p class="font-bold text-xl md:text-2xl">Sign In</p>
+                   <input type="text" placeholder="Email or mobile number" class="px-5 py-2 mt-5 bg-transparent border-2 border-stone-500 rounded-md">
+                   <input type="password" placeholder="Password" class="px-5 py-2 mt-3 bg-transparent border-2 border-stone-500 rounded-md">
+                   <button class="bg-red-600 text-white py-1 rounded-md mt-3"> Sign In</button>
+                   <p class="text-stone-500 text-center my-2">OR</p>
+                   <p class="text-center bg-white bg-opacity-20 py-2 rounded-md">Use a Sign-In code</p>
+                   <p class="underline decoration-solid text-center my-2 text-base">Forget Password?</p>
+                   <div class="flex my-2  "><input type="checkbox" id="check">
+                    <label for="check" class="px-2">Remember Me</label></div>
+                    <div class="flex my-2"> <p class="text-stone-500">New to Netflix?</p><p class="font-semibold px-1">Sign up now</p></div>
+                 
+                   
+             </div>
+            
+
+        </div>
+     </div>
+</body>
+</htm
